@@ -24,7 +24,7 @@ A modern, responsive todo application built with FastHTML - a Python web framewo
 2. **Or build and run manually:**
    ```bash
    docker build -t fasthtml-todo .
-   docker run -p 8000:8000 fasthtml-todo
+   docker run -p 5001:5001 fasthtml-todo
    ```
 
 ### Option 2: Local Development
@@ -40,7 +40,7 @@ A modern, responsive todo application built with FastHTML - a Python web framewo
    ```
 
 3. **Open your browser:**
-   Navigate to `http://localhost:8000`
+   Navigate to `http://localhost:5001`
 
 ## Project Structure
 
@@ -123,7 +123,7 @@ For production deployment:
 1. **Port already in use:**
    ```bash
    # Change port in docker-compose.yml or use different port
-   docker-compose up -p 8001
+   docker-compose up -p 5002
    ```
 
 2. **Database permissions:**
