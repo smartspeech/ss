@@ -1,0 +1,2 @@
+fasthtml>=0.0.1
+uvicorn[standard]>=0.24.0
